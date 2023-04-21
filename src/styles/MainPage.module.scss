@@ -1,0 +1,10 @@
+.link {
+  text-decoration: underline;
+  transition: 0.2s ease all;
+  &:visited {
+    color: black;
+  }
+  &:hover {
+    font-weight: bold;
+  }
+}

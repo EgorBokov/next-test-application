@@ -1,0 +1,15 @@
+.clientsContainer {
+  display: flex;
+  flex-direction: column;
+
+  > a {
+    transition: 0.2s ease all;
+    color: black;
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
